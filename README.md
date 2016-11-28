@@ -7,8 +7,8 @@ Docker Squid server
   
 ## Edit Your IP
 
-  vi squid.conf
+  vi etc/squid3/squid.conf
 
 ## Start Squid server
 
-  ./start.sh
+  docker-compose up -d
